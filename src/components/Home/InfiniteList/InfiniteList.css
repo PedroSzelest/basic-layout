@@ -1,0 +1,66 @@
+.main_container_infinite {
+    min-width: 100vw;
+    max-width: auto;
+    height: 45vh;
+    padding: 2vh;
+    background-color: rgb(216, 210, 210);
+}
+
+.main_container_infinite > h3 {
+    margin-left: 43vw;
+    font-size: 1.5rem;
+    color: rgb(139, 139, 216);
+}
+
+.grid_container_infinite {
+    min-width: 100vw;
+    max-width: auto;
+    height: 90%;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+    transform-origin: all;
+}
+
+.grid_item_infinite {
+    display: flex;
+    align-items: center;
+    min-width: 100vw;
+    max-width: auto;
+    height: 100%;
+    justify-content: space-evenly;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.box_container_infinite {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 20vh;
+}
+
+.typography_infinite {
+    font-family: var(--poppins);
+    font-weight: 400;
+    
+}
+
+.icon_infinite {
+    font-size: 4rem;
+    color: rgb(139, 139, 216);
+}
+
+/*Buttons*/
+.back_icon_infinite {
+    z-index: 3;
+    position: relative;
+    top: 40%;
+}
+
+.forward_icon_infinite {
+    z-index: 3;
+    position: relative;
+    left: 95%;
+    top: -60%;
+}

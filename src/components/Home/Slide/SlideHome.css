@@ -1,0 +1,253 @@
+/*Slides*/
+/*1*/
+.slide1 {
+  background-image: url("./images/slide1.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 90vh;
+  transition: all 0.3s ease-in-out;
+}
+
+.slide1 > div {
+  width: 40%;
+  height: 50%;
+  position: relative;
+  left: 50vw;
+  top: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  color: white;
+}
+
+.slide1 > div > h4 {
+  font-family: var(--poppins);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.slide1 > div > h4 > span {
+  font-size: 3rem;
+}
+
+.slide1 > div > p {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  word-spacing: 10px;
+}
+
+.slide1 > div > p > a {
+  position: relative;
+  left: 20px;
+}
+
+.slide1 > div > hr {
+  width: 30vw;
+  height: 0.5vh;
+  background-color: grey;
+  border: 0;
+  outline: 0;
+}
+
+/*2*/
+.slide2 {
+  background-image: url("./images/slide2.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 90vh;
+  transition-duration: 0.3s;
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+}
+
+.slide2 > div {
+  width: 40%;
+  height: 50%;
+  position: relative;
+  left: 50vw;
+  top: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  color: white;
+}
+
+.slide2 > div > h4 {
+  font-family: var(--poppins);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.slide2 > div > h4 > span {
+  font-size: 3rem;
+}
+
+.slide2 > div > p {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  word-spacing: 10px;
+}
+
+.slide2 > div > p > a {
+  position: relative;
+  left: 20px;
+}
+
+.slide2 > div > hr {
+  width: 30vw;
+  height: 0.5vh;
+  background-color: grey;
+  border: 0;
+  outline: 0;
+}
+
+/*3*/
+.slide3 {
+  background-image: url("./images/slide3.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 90vh;
+  transition-duration: 0.3s;
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+}
+
+.slide3 > div {
+  width: 40%;
+  height: 50%;
+  position: relative;
+  left: 60vw;
+  top: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  color: white;
+}
+
+.slide3 > div > h4 {
+  font-family: var(--poppins);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.slide3 > div > h4 > span {
+  font-size: 3rem;
+}
+
+.slide3 > div > p {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  word-spacing: 10px;
+}
+
+.slide3 > div > p > a {
+  position: relative;
+  left: 20px;
+}
+
+.slide3 > div > hr {
+  width: 30vw;
+  height: 0.5vh;
+  background-color: grey;
+  border: 0;
+  outline: 0;
+}
+
+/*4*/
+.slide4 {
+  background-image: url("./images/slide4.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 90vh;
+  transition: all 0.3s ease-in-out;
+}
+
+.slide4 > div {
+  width: 40%;
+  height: 50%;
+  position: relative;
+  left: 10vw;
+  top: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  color: white;
+}
+
+.slide4 > div > h4 {
+  font-family: var(--poppins);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.slide4 > div > h4 > span {
+  font-size: 3rem;
+}
+
+.slide4 > div > p {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  word-spacing: 10px;
+}
+
+.slide4 > div > p > a {
+  position: relative;
+  left: 20px;
+}
+
+.slide4 > div > hr {
+  width: 30vw;
+  height: 0.5vh;
+  background-color: grey;
+  border: 0;
+  outline: 0;
+}
+
+/*Container*/
+.main_container {
+    width: 400vw;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+/*Buttons*/
+.arrow_back_container {
+    position: absolute;
+    top: 50%;
+    z-index: 2;
+}
+
+.arrow_forward_container {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: 2;
+}
+
+/*Check*/
+.check_container {
+    z-index: 2;
+    position: absolute;
+    top: 90%;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 20px;
+    left: 45%;
+}
+
